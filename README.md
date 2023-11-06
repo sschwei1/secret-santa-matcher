@@ -1,7 +1,7 @@
 # Secret Santa Matcher
 At work we wanted to play secret santa and needed a way to match all players. Well, this is how this project was created. We were 4 developers, each one taking onto this simple but somewhat tricky problem alone.
 
-## Though Precess
+## Though Process
 The problem: Given a list of `n` participants, assign a match to each user where noone is matched with themself.
 ### Solution 1
 My first though was, what if I take the first user of the list and remove it, and match it with a random user who is left. The matched user will then also be removed from the list and matched with another user left. This is repeated until only 1 user is left in the list. The last matched user will then be assigned the only left user in the list as match, while the user left in the list is matched with the initially first picked user.
