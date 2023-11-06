@@ -1,4 +1,4 @@
-# secret_santa_matcher
+# secret-santa-matcher
 At work we wanted to play secret santa and needed a way to match all players. Well, this is how this project was created. We were 4 developers, each one taking onto this simple but somewhat tricky problem alone.
 
 ## Though Precess
